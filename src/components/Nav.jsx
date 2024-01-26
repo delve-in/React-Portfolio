@@ -4,25 +4,27 @@ export default function Nav() {
 
     return (
         <>
+        <div className='flex main'>
         <h1 className='name'>DELVIN</h1>
             <nav className='nav'>
             
                 <ul className='container flex'>
                     
                     <li className='navigation'>
-                        <Link to="/" classname={currentPage === '/' ? 'nav-link active' : 'nav-link'}> About Me </Link>
+                        <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}> About Me </Link>
                     </li>
                     <li className='navigation'>
-                        <Link to="/Portfolio" classname={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}> Portfolio </Link>
+                        <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}> Portfolio </Link>
                     </li>
                     <li className='navigation'>
-                        <Link to="/Contact" classname={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}> Contact </Link>
+                        <Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}> Contact </Link>
                     </li>
                     <li className='navigation'>
-                        <Link to="/Resume" classname={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}> Resume </Link>
+                        <Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}> Resume </Link>
                     </li>
                 </ul>
             </nav>
+            </div>
         </>
     );
 }
