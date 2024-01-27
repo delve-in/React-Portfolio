@@ -1,8 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
-  padding: 0%;
-  margin: 0%;
 }
 
 #root{
@@ -11,7 +9,6 @@
 
 *{
   box-sizing: border-box;
-  
 }
 
 a{
@@ -75,9 +72,6 @@ h3{
   margin: 0%;
 }
 
-ul{
-  padding: 0%;
-}
 .nav{
   display: inline-block;
 }
@@ -214,4 +208,48 @@ text-decoration: underline;
 
 .gimg{
   margin-top: 58px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+}
+
+label{
+  text-align: left;
+  margin: 10px;
+}
+
+.field{
+  
+  display: flex;
+  margin: 10px;
+}
+
+button{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume{
+  text-align: left;
+  margin-left: 50px;
+  line-height: 30px;
+}
+
+.display{
+  display: none;
+}
+
+#invalid{
+  display: none;
 }
