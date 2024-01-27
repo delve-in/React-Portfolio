@@ -39,7 +39,7 @@ The Homepage is the About page where you can read a little about me the creater 
 
 You will be abled to see my github, linkedin and X links in the footer as in the pic below:
 
-![Alt text](image-1.png)
+![Alt text](./image-1.png)
 
 You can click on these images to open the links corresponding to each of them.
 
