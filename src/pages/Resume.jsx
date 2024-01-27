@@ -3,7 +3,7 @@ function Error(){
     return (
         <div className="resume">
             <h1>Resume</h1>
-            <p>Download my <a href="../../public/resume.pdf" download>resume</a></p>
+            <p>Download my <a href="./resume.pdf" download>resume</a></p>
             <h2>Front-end Proficiencies</h2>
       <ul>
         <li>HTML</li>
