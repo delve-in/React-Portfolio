@@ -4,7 +4,8 @@
 }
 
 #root{
-  margin: 0%;
+  min-height:100%;
+  position:relative;
 }
 
 *{
@@ -51,21 +52,28 @@ a{
 .name{
   margin: 30px;
   padding-bottom: 0%;
-  font-size: 25px;
+  font-size: 50px;
   text-decoration: none;
   text-align: center;
   width: 10%;
   display: inline-block;
-  
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .footerbox{
-  background-color: black;
-  height: 50px;
-  padding-top:15px ;
-  bottom: 0%;
   position: fixed;
+
+  left: 0;
+  bottom: 0;
   width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.footerlogo{
+  position: absolute;
+  margin-top: -46px;
+  margin-left: 260px
 }
 
 h3{
@@ -77,7 +85,7 @@ h3{
 }
 
 .content{
-  margin: 5%;
+  margin: 2%;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 1.5em ;
@@ -252,4 +260,8 @@ button{
 
 #invalid{
   display: none;
+}
+
+.footerimg{
+  margin: 1%;
 }

@@ -53,6 +53,7 @@ export default function Contact() {
         
     }
     return (
+        
         <div className="form">
             <h1>Contact</h1>
             <form>
@@ -72,5 +73,6 @@ export default function Contact() {
                 <button onClick={buttonClick} type='submit'>Send Message</button>
             </form>
         </div>
+        
     );
 }

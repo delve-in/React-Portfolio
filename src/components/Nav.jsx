@@ -4,6 +4,7 @@ export default function Nav() {
 
     return (
         <>
+        <div>
         <div className='flex main'>
         <h1 className='name'>DELVIN</h1>
             <nav className='nav'>
@@ -24,6 +25,7 @@ export default function Nav() {
                     </li>
                 </ul>
             </nav>
+            </div>
             </div>
         </>
     );
