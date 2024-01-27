@@ -2,12 +2,16 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   padding: 0%;
-  
+  margin: 0%;
+}
+
+#root{
+  margin: 0%;
 }
 
 *{
   box-sizing: border-box;
-  margin: 0%;
+  
 }
 
 a{
@@ -98,7 +102,7 @@ ul{
 
 .projects{
   flex: 2 0 25%;
-  width: 350px;
+  min-width: 300px;
   margin: 1%;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0,247,255,1);
 -moz-box-shadow: 0px 0px 10px 3px rgba(0,247,255,1);
@@ -118,4 +122,96 @@ border: 0px solid #000000;
 a.active{
 color: #ff0000; 
 text-decoration: underline;
+}
+
+.title{
+  position: absolute;
+ 
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+
+#title1{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#title2{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#title3{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#title4{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#title5{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#title6{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.logo{
+  margin-bottom: -3px;
+}
+
+.card{
+  background-color: #000000;
+  position: absolute;
+  opacity: 0;
+}
+
+#card1{
+  width: 150px;
+  height: 50px;
+  margin-top: -160px;
+  margin-left: 20px;
+}
+
+#card2{
+  width: 150px;
+  height: 50px;
+  margin-top: -160px;
+  margin-left: 20px;
+}
+#card3{
+  width: 160px;
+  height: 50px;
+  margin-top: -160px;
+  margin-left: 20px;
+}
+#card4{
+  width: 270px;
+  height: 50px;
+  margin-top: -160px;
+  margin-left: 20px;
+}
+#card5{
+  width: 270px;
+  height: 50px;
+  margin-top: -160px;
+  margin-left: 20px;
+}
+#card6{
+  width: 240px;
+  height: 50px;
+  margin-top: -160px;
+  margin-left: 20px;
+}
+
+.projects:hover .card{
+  opacity: 1;
+}
+
+.projects:hover .title{
+  opacity: 1;
+}
+
+.gimg{
+  margin-top: 58px;
 }
